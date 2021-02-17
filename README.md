@@ -66,5 +66,5 @@ Alternatively, it's also possible to use Robocode's internal editor, after launc
 To build the image yourself, just run:
 
 ```
-$ docker build -t fbcbarbosa/robocode .
+$ docker build --build-arg ROBOCODE_RELEASE=1.9.3.9  -t fbcbarbosa/robocode .
 ```
